@@ -18,18 +18,21 @@ function App() {
   // you can use arrow or traditional function format - I personally prefer arrow for this as that's what I'm more familiar with that
 
   return (
-    <div>
-      <h1>Enter a value:</h1>
+    <div className="app">
+      <h1 className="input__hdg">Enter a value:</h1>
       <input
+        className="input"
         type="text"
         value={"a state variable goes here"}
         onChange={"a function goes here"}
       />
       {/* we'll need to set a value and onChange attribute inside our input. Think about what value needs to be point to and set onChange to whatever you've called your function which handles changes above */}
 
-      <div>
-        <h2>Input value:</h2>
-        <p>{"something that contains our input values"}</p>
+      <div className="display">
+        <h2 className="display__hdg">Input value:</h2>
+        <p className="display__output">
+          {"something that contains our input values"}
+        </p>
       </div>
       {/* The div above will need to be conditionally rendered so that it displays when we've typed something in to the text input but NOT if it is empty */}
     </div>
