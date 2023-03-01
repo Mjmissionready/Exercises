@@ -5,7 +5,7 @@ function App() {
   // Q:what type of variable is this going to be?
   // create another useState which will be used to conditionally render our display
   // Q: what kind of variable is this going to be?
-  // PROTIP: when creating variable names, try to make it as descriptive as possible
+  // PROTIP: when creating variable names, try to make it as concise but descriptive as possible
 
   useEffect(() => {
     // This useEffect will be triggered every time the input values change
