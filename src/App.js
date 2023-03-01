@@ -9,7 +9,7 @@ function App() {
 
   useEffect(() => {
     // This useEffect will be triggered every time the input values change
-    // write an if/else statement which checks if there is something in our input values state
+    // write an if/else statement which checks if there is something in our input values state (how do we check if a string variable is empty or has some characters?)
     // if something is there then our second state (whatever you called it) should be SET to true, and if not, it should be SET to false
   }, []); // our dependency array will need to be whatever we have called the useState which stores our text input value
 
