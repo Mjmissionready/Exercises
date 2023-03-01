@@ -3,14 +3,14 @@
 function App() {
   // create a useState which stores the value of whatever we input into the text box
   // Q:what type of variable is this going to be?
-  // create another useState which will be used to track wether or not something or nothing is typed into the text box
+  // create another useState which will be used to track wether or not something or nothing is inside our first state
   // Q: what kind of variable is this going to be?
   // PROTIP: when creating variable names, try to make it as descriptive as possible
 
   useEffect(() => {
-    // This useEffect will be triggered every time the inputValue changes
-    // write an if/else statement which checks if something has been typed into the text input
-    // if something is typed then something should be SET to true, and if not, it should be SET to false
+    // This useEffect will be triggered every time the input values change
+    // write an if/else statement which checks if there is something in our input values state
+    // if something is there then our second state (whatever you called it) should be SET to true, and if not, it should be SET to false
   }, []); // our dependency array will need to be whatever we have called the useState which stores our text input value
 
   // write a function with is triggered by changes to the text box input. This will need to go into the onChange attribute of your text input.
