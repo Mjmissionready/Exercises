@@ -3,7 +3,7 @@
 function App() {
   // create a useState which stores the value of whatever we input into the text box
   // Q:what type of variable is this going to be?
-  // create another useState which will be used to track wether or not something or nothing is inside our first state
+  // create another useState which will be used to conditionally render our display
   // Q: what kind of variable is this going to be?
   // PROTIP: when creating variable names, try to make it as descriptive as possible
 
@@ -15,7 +15,7 @@ function App() {
 
   // write a function with is triggered by changes to the text box input. This will need to go into the onChange attribute of your text input.
   // the function takes in a parameter called "event" or "e" for short and inside the function SETS our input useState to event.target.value (OR e.target.value)
-  // you can use arrow or traditional function format - I personally prefer arrow for this as that's what I'm more familiar with
+  // you can use arrow or traditional function format - I personally prefer arrow for this as that's what I'm more familiar with that
 
   return (
     <div>
